@@ -2,7 +2,7 @@
 import streamlit as st
 import os
 from PyPDF2 import PdfReader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_groq import ChatGroq
@@ -146,3 +146,4 @@ if prompt := st.chat_input("Ask a question about your PDF..."):
     else:
 
         st.error("Please upload a PDF first!")
+
