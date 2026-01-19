@@ -49,3 +49,6 @@ To run this app, you need a **Groq API Key**.
 3.  **Deployment**: Set the key in Streamlit "Secrets" settings as `GROQ_API_KEY`.
 
 ## 📂 Project Structure
+├── app.py # Main application logic ├── requirements.txt # Dependencies with specific versions └── README.md # Documentation
+---
+*Built by Sutharsan N.*
