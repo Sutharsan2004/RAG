@@ -1,9 +1,9 @@
 streamlit
 PyPDF2
-langchain
-langchain-community
-langchain-groq
-langchain-text-splitters
 faiss-cpu
 sentence-transformers
 huggingface-hub
+langchain==0.1.20
+langchain-community==0.0.38
+langchain-core==0.1.52
+langchain-groq==0.1.5
