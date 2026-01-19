@@ -1,5 +1,4 @@
 
-%%writefile app.py
 import streamlit as st
 import os
 from PyPDF2 import PdfReader
@@ -145,4 +144,5 @@ if prompt := st.chat_input("Ask a question about your PDF..."):
                 st.markdown(answer)
                 st.session_state.messages.append({"role": "assistant", "content": answer})
     else:
+
         st.error("Please upload a PDF first!")
