@@ -1,8 +1,13 @@
-Check out live project here - https://falyfktf3qyiruuzosbtfm.streamlit.app/
-
 # 📚 Chat with PDF using RAG & Llama 3
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](YOUR_STREAMLIT_LINK_HERE)
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
+![LangChain](https://img.shields.io/badge/LangChain-🦜-green)
+![Groq](https://img.shields.io/badge/Groq-Llama3-orange)
+
 This is a **Retrieval-Augmented Generation (RAG)** application built with **Streamlit** and **LangChain**. It allows users to upload a PDF document and chat with it using the **Groq API (Llama 3)** for extremely fast inference.
+
+Check out live project here - https://falyfktf3qyiruuzosbtfm.streamlit.app/
 
 ## 🚀 Features
 
